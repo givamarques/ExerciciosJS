@@ -1,0 +1,7 @@
+//Operador Ternario
+//fazer comparacoes sem construtores if
+//ex: se cliente tiver mais de 100 contas é premium
+
+let pontos = 100; 
+let tipo = pontos > 100 ? 'premium' : 'comum'; //tipo de cliente tem mais de 100 pontos? se sim = premiu, senao = comum
+console.log(tipo); //imprime comum pois foi atribuido o numero 100
